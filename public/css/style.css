@@ -1,0 +1,366 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #0c0115f3;
+}
+.box {
+  width: 400px;
+  padding: 20px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background: #0c0115;
+  border-radius: 8px;
+}
+.title {
+  margin: 0;
+  font-weight: 500;
+  font-size: 35px;
+  margin-bottom: 30px;
+  color: white;
+}
+.box input[type="text"],
+.box input[type="email"],
+.box input[type="password"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.box input[type="text"]:focus,
+.box input[type="email"]:focus,
+.box input[type="password"]:focus {
+  width: 280px;
+  border-color: #2ecc71;
+}
+.box input[type="submit"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid white;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.box input[type="submit"]:hover {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid white;
+  background: white;
+  padding: 14px 40px;
+  font-weight: 600;
+  outline: none;
+  color: black;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.ques {
+  margin-top: 40px;
+  font-size: 10px;
+  color: white;
+}
+.ques a {
+  color: yellow;
+  text-decoration: none;
+}
+.back {
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  height: 1000px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0c0115;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4caf50;
+}
+
+.brand {
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  margin: 10px 20px;
+}
+.carousel {
+  width: 100%;
+  height: fit-content;
+  background: #0c0115;
+}
+.wall {
+  margin-bottom: 15%;
+}
+.top {
+  width: 100%;
+  margin-bottom: 0;
+}
+.slide {
+  position: relative;
+  width: 80%;
+  margin-top: -55%;
+  margin-left: 10%;
+  /* background-color: crimson; */
+}
+.ss {
+  max-width: 100%;
+}
+.mySlides {
+  display: none;
+  width: 90%;
+  height: 370px;
+  margin: auto;
+}
+.w3-left,
+.w3-right {
+  margin: auto;
+}
+.w3-left,
+.w3-right,
+.w3-badge {
+  cursor: pointer;
+}
+.w3-badge {
+  height: 16px;
+  padding: 0;
+}
+@media screen and (max-width: 1024px) {
+  .mySlides {
+    width: 85%;
+    height: 15%;
+  }
+}
+.list {
+  justify-content: center;
+  width: 100%;
+  padding: 20px 15px;
+  background-color: #0c0115;
+  display: inline-flex;
+
+}
+.cont{
+  width: 800px;
+
+}
+.frame {
+  width: 150px;
+  height: 220px;
+  margin: 10px 5px;
+  font-family: "Poppins", sans-serif;
+  
+}
+.poster {
+  width: 100%;
+  height: 220px;
+  z-index: -1;
+}
+.val {
+  width: 100%;
+  padding-left: 5px;
+  margin-top: -30%;
+}
+.judul {
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  margin: 0;
+}
+.rate {
+  margin-top: 0;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 13px;
+  color: white;
+}
+.rating {
+  margin: 0;
+}
+.fullrate {
+  margin: 0;
+  font-size: 9px;
+  padding-left: 5px;
+  padding-top: 6px;
+}
+.line {
+  width: 100%;
+  background-color: #17002e;
+  height: 2px;
+}
+.footer {
+  margin: 0;
+  width: 100%;
+  height: 150px;
+  background-color: #0c0115;
+  text-align: center;
+}
+.brandfoot {
+  padding: 0;
+  margin: 0;
+  color: #828898;
+  font-weight: 600;
+  font-size: 25px;
+}
+.dev {
+  color: #828898;
+  font-size: 13px;
+  padding: 0;
+  margin-bottom: 0;
+}
+.contex {
+  width: 100%;
+  padding-top: 35px;
+}
+.to {
+  text-decoration: none;
+}
+/* Detail & Pesanan */
+.container {
+  width: 70%;
+}
+.harga {
+  padding-top: 2%;
+}
+.detail {
+  padding-top: 2%;
+}
+.card-body p {
+  font-weight: 300;
+  font-size: 13px;
+  position: relative;
+  text-align: justify;
+  line-height: 1.8;
+  color: #000000;
+}
+.main-detail .desc-box .desc-label .c-labelss {
+  width: 53px;
+  height: 53px;
+  float: left;
+  background-color: #0d7e40;
+  border-radius: 50%;
+  text-align: center;
+  margin-left: 5px;
+}
+.main-detail .desc-box .desc-label .c-labelss img {
+  max-width: 100%;
+  float: none;
+  margin-left: 0;
+  margin-top: 15px;
+}
+.main-detail .desc-box .desc-label .c-labelss.d-red {
+  background-color: #be1e2d;
+}
+.main-detail .desc-box .desc-label .c-labelss.d-blue {
+  background-color: #1b578a;
+}
+.main-content {
+  width: 935px;
+  float: left;
+  margin-right: 15px;
+}
+.main-detail {
+  padding-right: 15px;
+}
+.main-detail .poster-box {
+  position: relative;
+}
+.main-detail .poster-box img {
+  width: 100%;
+  display: block;
+}
+.main-detail .poster-box .button_buy {
+  display: block;
+  width: 100%;
+  background-color: #f9cc14;
+  color: #000000;
+  padding: 11px;
+  text-align: center;
+  font-weight: 600;
+}
+.main-detail .poster-box .button_buy:hover {
+  background-color: darkorange;
+}
+.main-detail .desc-box .desc-movie {
+  list-style: none;
+  margin: 0 0 30px;
+  padding: 20px;
+}
+.main-detail .desc-box .desc-movie .card {
+  padding-left: 10px;
+  font-weight: 10;
+  font-size: 13px;
+  position: relative;
+  line-height: 1.8;
+  background-color: #1b578a;
+  color: #fafafa;
+}
+
+.main-detail .desc-box h2 {
+  font-size: 25px;
+  color: #f9cc14;
+  padding-right: auto;
+  line-height: normal;
+}
+.main-detail .desc-box .desc-synopsis {
+  position: relative;
+}
+.main-detail .desc-box .desc-synopsis h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #f9cc14;
+}
+.main-detail .desc-box .desc-synopsis p {
+  font-size: 13px;
+  text-align: justify;
+  color: #f1e9e9;
+  margin-bottom: 10px;
+}
+.card-title {
+  color: #f9cc14;
+}
+.alert{
+  color: #f1e9e9;
+
+}
